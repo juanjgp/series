@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de series</title>
+</head>
+<body>
+    <!--Cabecera-->
+    <header>
+        <h1>Recomendador de series</h1>
+    </header>
+    <main>
+        <!--Formulario-->
+        <form action="registro.html" id="formulario">
+            <div class="itemformulario">
+                <label for="nombre">Nombre*</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <div class="itemformulario">
+                <label for="email">Email</label>
+                <input type="email" value="ju@hot" name="email" id="email">
+            </div>
+            <div class="itemformulario">
+                <label for="edad">Edad*</label>
+                <input type="text" name="edad" id="edad" required>
+            </div>
+            <div class="itemformulario">
+                <label for="serie1">1ª serie que más te gusta</label>
+                <select name="serie1" id="serie1">
+                    <option value="0">--Por favor elige la serie que más te guste--</option>
+                    <option value="1">Aquí no hay quien viva</option>
+                    <option value="2">Los Serrano</option>
+                    <option value="3">Manos a la obra</option>
+                    <option value="4">El internado</option>
+                    <option value="5">La que se avecina</option>
+                    <option value="6">Farmacia de guardia</option>
+                </select>
+            </div>
+            <div class="itemformulario">
+                <label for="serie2">2ª serie que más te gusta</label>
+                <select name="serie2" id="serie2">
+                    <option value="0">--Por favor elige la serie que más te guste--</option>
+                    <option value="1">Aquí no hay quien viva</option>
+                    <option value="2">Los Serrano</option>
+                    <option value="3">Manos a la obra</option>
+                    <option value="4">El internado</option>
+                    <option value="5">La que se avecina</option>
+                    <option value="6">Farmacia de guardia</option>
+                </select>
+            </div>
+            <div class="itemformulario">
+                <label for="serie3">3ª serie que más te gusta</label>
+                <select name="serie3" id="serie3">
+                    <option value="0">--Por favor elige la serie que más te guste--</option>
+                    <option value="1">Aquí no hay quien viva</option>
+                    <option value="2">Los Serrano</option>
+                    <option value="3">Manos a la obra</option>
+                    <option value="4">El internado</option>
+                    <option value="5">La que se avecina</option>
+                    <option value="6">Farmacia de guardia</option>
+                </select>
+            </div>
+            <div class="itemformulario">
+                <input type="submit" value="ENVIAR" id="boton_enviar">
+            </div>
+        </form>
+    </main>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Almacenamiento series usuarios</p>
+    </footer>
+    <!-- EL CÓDIGO JS -->
+    <script src="./js/datos_usuario.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
